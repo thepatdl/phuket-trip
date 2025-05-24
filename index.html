@@ -77,9 +77,10 @@
   }
 
   // ฟังก์ชันสร้างลิงก์ค้นหา Trip.com
- function createTripcomLink(date) {
-  return `https://th.trip.com/flights/bangkok-to-phuket/tickets-bkk-hkt?dcity=BKK&acity=HKT&tripType=O&flighttype=oneway&class=economy&date=${date}`;
+function createTripcomLink(date) {
+  return `https://th.trip.com/flights/showfarefirst?dcity=bkk&acity=hkt&ddate=${date}&triptype=ow&class=y&lowpricesource=searchform&quantity=1&searchboxarg=t&nonstoponly=off&locale=th-TH&curr=THB`;
 }
+
 
   const ul = document.getElementById('flight-links');
 
