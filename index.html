@@ -77,11 +77,9 @@
   }
 
   // ฟังก์ชันสร้างลิงก์ค้นหา Trip.com
-  function createTripcomLink(date) {
-    // Trip.com ตัวอย่าง
-    // https://th.trip.com/flights/search/bkk-hkt-2025-07-10/
-    return `https://th.trip.com/flights/search/bkk-hkt-${date}/`;
-  }
+ function createTripcomLink(date) {
+  return `https://th.trip.com/flights/bangkok-to-phuket/tickets-bkk-hkt?dcity=BKK&acity=HKT&tripType=O&flighttype=oneway&class=economy&date=${date}`;
+}
 
   const ul = document.getElementById('flight-links');
 
